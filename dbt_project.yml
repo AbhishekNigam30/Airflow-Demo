@@ -6,12 +6,15 @@ config-version: 2
 profile: 'default'
 
 model-paths: ["models"]
+analyses-path: ["analyses"]
+test-path: ["tests"]
+
+
 
 target-path: "target"
 clean-targets: 
   - "target"
   - "dbt_packages"
 models: 
-  Airflow-Demo
-    example:
-      materialized: view
+  Airflow-Demo:
+      +materialized: view
