@@ -8,7 +8,9 @@ profile: 'default'
 model-paths: ["models"]
 
 target-path: "target"
-
+clean-targets: 
+  - "target"
+  - "dbt_packages"
 models: 
   airflow_dbt:
     example:
