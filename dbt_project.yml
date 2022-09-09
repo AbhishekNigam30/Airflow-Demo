@@ -12,6 +12,6 @@ clean-targets:
   - "target"
   - "dbt_packages"
 models: 
-  airflow_dbt:
+  Airflow-Demo
     example:
       materialized: view
