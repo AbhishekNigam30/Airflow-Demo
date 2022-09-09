@@ -1,5 +1,5 @@
 
-      create table default.model2
+      create table default my_first_dbt_model_id
   
     
     
