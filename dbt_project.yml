@@ -5,11 +5,7 @@ config-version: 2
 
 profile: 'default'
 
-model-paths:["models"]
-
-
-
-
+model-paths: ["models"]
 
 models: 
   airflow_dbt:
