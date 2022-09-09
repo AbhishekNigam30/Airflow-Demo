@@ -1,6 +1,6 @@
 
-      create table default.my_first_dbt_model
-    
+      create table default.model2
+  
     
     
     
